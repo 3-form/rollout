@@ -194,7 +194,7 @@ class Rollout
 
         $g = $this->groups[$group];
 
-        return $g && $g($user);
+        return $g && $g($user, $group);
     }
 
     /**
